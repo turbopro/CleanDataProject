@@ -113,7 +113,7 @@ run_anlysis <- function(dir1, dir2) {
      
      # Retrieve mean of the values and store into new data frame
      # The acast() function returns a matrix
-     meanData <- acast(testdata, Activity + Volunteers ~ variable, mean)
+     meanData <- acast(rData, Activity + Subject ~ variable, mean)
      meanData <- as.data.frame(meanData)
      
      # save meanData data frame to file in current working directory 
