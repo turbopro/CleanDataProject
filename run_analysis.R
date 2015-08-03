@@ -4,6 +4,7 @@
 ### Coursera, May 2014
 
 ### Date: 25 May, 2014
+### updated: 03 Aug, 2015
 ### By: Xon-Xoff
 
 ##   Assumptions:
@@ -112,7 +113,7 @@ run_anlysis <- function(dir1, dir2) {
      aLabelNames <- as.character(aLabelNames[,"V2"])
      
      # Retrieve mean of the values and store into new data frame
-     # The acast() function returns a matrix
+     # The acast() function returns a matrix 
      meanData <- acast(rData, Activity + Subject ~ variable, mean)
      meanData <- as.data.frame(meanData)
      
