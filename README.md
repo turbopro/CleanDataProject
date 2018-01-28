@@ -1,3 +1,6 @@
+Archived: Jan 28 2018
+By: Xon-Xoff
+
 run_analysis.R
 
 Project Paper for "Getting and Cleaning Data""
